@@ -15,10 +15,12 @@ public class CaesarBreakerTwoKeys
         return buildResult.toString();
     }
 
-    public void getKey(String s){
+    public int getKey(String s){
+        int key=0;
         BreakEncryption breakencryption = new BreakEncryption();
-        breakencryption.countingOccurrences(s);
-
+        int [] letterFre = breakencryption.countingOccurrences(s);
+        key = breakencryption.maxIndex(letterFre);
+        return key;
     }
     public void testHalfOfString(){
         System.out.println(halfOfString("Qbkm Zgis",1 ));
