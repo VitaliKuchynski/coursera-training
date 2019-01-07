@@ -14,7 +14,7 @@ public class BreakEncryption {
     return counts;
 }
 
-public String decrypt(String encrypted){
+public String decryptOneKey(String encrypted){
     Encrypt cc = new Encrypt();
     int [] fregs = countingOccurrences(encrypted);
     int maxDex = maxIndex(fregs);
@@ -22,7 +22,7 @@ public String decrypt(String encrypted){
     if (maxDex< 4){
         dkey = 26 - (4-maxDex);
     }
-    return cc.encryptW(encrypted,26-dkey);
+    return cc.encryptOneKey(encrypted,26-dkey);
 }
 
 public int maxIndex(int [] vals){
@@ -34,8 +34,18 @@ public int maxIndex(int [] vals){
     }
     return maxDex;
     }
+
+    public void eyeballDecrypt(String message){
+        Encrypt encrypt = new Encrypt();
+        for (int k=0; k<26; k++){
+            String s = encrypt.encryptOneKey(message,k);
+            System.out.println(k + "\t" + s);
+
+        }
+
+    }
     
 public void testDecrypt(){
-    decrypt("WIVV TRBV ZE KYV TFEWVIVETV IFFD!");
+    decryptOneKey("OHCNY");
  }
 }

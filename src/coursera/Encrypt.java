@@ -4,14 +4,14 @@ public class Encrypt {
     public static void main(String[] arg){
 
         Encrypt encrypt = new Encrypt();
-        //encrypt.encryptW("First Legion", 17);
-        encrypt.encryptTwo("First Legion",23,17);
+        encrypt.encryptOneKey("united stateeees of ameeericeeeea", 14);
+        encrypt.encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx",14,25);
         //encrypt.firstLetterUpperCae("united states of america");
 
     }
 
     //Encrypts message with one shift key
-    public String encryptW(String input, int key){
+    public String encryptOneKey(String input, int key){
         //Gets input
         StringBuilder encrypted = new StringBuilder(input);
         //Creates string alphabet
@@ -46,7 +46,7 @@ public class Encrypt {
         return encrypted.toString();
     }
     //Encrypts message with 2 shift keys
-    public String encryptTwo(String input1, int key1 ,int key2){
+    public String encryptTwoKeys(String input1, int key1 , int key2){
 
         //Gets input
         StringBuilder encrypted = new StringBuilder(input1);
@@ -116,8 +116,5 @@ public class Encrypt {
 
     }
 
-public void testCaesar(){
 
-
-}
 }

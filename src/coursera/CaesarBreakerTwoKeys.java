@@ -3,10 +3,8 @@ package coursera;
 /**
  * Created by vitalikuchynski on 1/2/19.
  */
-public class CaesarBreakerTwoKeys
-{
+public class CaesarBreakerTwoKeys {
     public String halfOfString(String message, int start){
-        String result = null;
         StringBuilder buildResult = new StringBuilder();
         for(int i = start; i < message.length(); i+=2){
             char curChar = message.charAt(i);
@@ -16,14 +14,33 @@ public class CaesarBreakerTwoKeys
     }
 
     public int getKey(String s){
-        int key=0;
+
         BreakEncryption breakencryption = new BreakEncryption();
-        int [] letterFre = breakencryption.countingOccurrences(s);
-        key = breakencryption.maxIndex(letterFre);
-        return key;
+
+        int [] frequency = breakencryption.countingOccurrences(s);
+        return breakencryption.maxIndex(frequency);
+    }
+    public String decryptTwoKeys(String encrypt){
+        Encrypt cc = new  Encrypt();
+        String stringFirstChar = halfOfString(encrypt,0);
+        String stringSecondChar = halfOfString(encrypt,1);
+        int firstKey = getKey(stringFirstChar);
+        int secondKey = getKey(stringSecondChar);
+        int dkey1 = firstKey-4;
+        int dkey2 = secondKey-4;
+        if (firstKey< 4){
+            dkey1 = 26 - (4-firstKey);
+        }
+        if (secondKey< 4){
+            dkey2 = 26 - (4-secondKey);
+        }
+
+        System.out.println(stringFirstChar  +" "+ firstKey);
+        System.out.println(stringSecondChar +" "+ secondKey);
+        return cc.encryptTwoKeys(encrypt,26 -dkey1 ,26-dkey2);
     }
     public void testHalfOfString(){
-        System.out.println(halfOfString("Qbkm Zgis",1 ));
+        System.out.println(halfOfString("Czojq Ivdzle",1 ));
     }
 
 }
