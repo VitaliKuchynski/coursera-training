@@ -1,8 +1,5 @@
 package coursera;
 
-/**
- * Created by vitalikuchynski on 1/2/19.
- */
 public class CaesarBreakerTwoKeys {
     public String halfOfString(String message, int start){
         StringBuilder buildResult = new StringBuilder();
@@ -35,8 +32,8 @@ public class CaesarBreakerTwoKeys {
             dkey2 = 26 - (4-secondKey);
         }
 
-        System.out.println(stringFirstChar  +" "+ firstKey);
-        System.out.println(stringSecondChar +" "+ secondKey);
+        System.out.println(stringFirstChar  +" "+ firstKey+"   "+dkey1);
+        System.out.println(stringSecondChar +" "+ secondKey+"   "+dkey2);
         return cc.encryptTwoKeys(encrypt,26 -dkey1 ,26-dkey2);
     }
     public void testHalfOfString(){

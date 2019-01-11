@@ -4,8 +4,8 @@ public class Encrypt {
     public static void main(String[] arg){
 
         Encrypt encrypt = new Encrypt();
-        encrypt.encryptOneKey("united stateeees of ameeericeeeea", 14);
-        encrypt.encryptTwoKeys("Top ncmy qkff vi vguv vbg ycpx",14,25);
+        encrypt.encryptOneKey("Can you imagine life WITHOUT the internet AND computers in your pocket?", 15);
+        encrypt.encryptTwoKeys("Can you imagine life WITHOUT the internet AND computers in your pocket?",21,8);
         //encrypt.firstLetterUpperCae("united states of america");
 
     }
