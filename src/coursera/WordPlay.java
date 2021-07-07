@@ -6,8 +6,7 @@ public class WordPlay {
     public static void main(String[] args) {
         WordPlay wordPlay= new WordPlay();
 
-
-      //wordPlay.isVowel('o');
+        //wordPlay.isVowel('o');
       // wordPlay.replaceVowels("Hello World I am here",'#');
         wordPlay.emphasize("Mary Bella Abracadabra", 'a');
         //wordPlay.returnString("hij");

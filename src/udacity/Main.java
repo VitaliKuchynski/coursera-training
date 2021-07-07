@@ -1,9 +1,9 @@
 package udacity;
 
-
-
+/**
+ * Created by vitalikuchynski on 4/5/20.
+ */
 public class Main {
-
 
     public static void main(String[] args){
 
@@ -11,6 +11,6 @@ public class Main {
 
         user.deposit(1000);
         user.withdraw(500);
+}
 
-    }
 }
