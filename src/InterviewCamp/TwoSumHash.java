@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+//Level: EasyGiven an array of integers,
+// find a pair of integers that sums to a number Target.
+
 public class TwoSumHash {
 
     public static void main(String[] args) {
@@ -25,7 +28,7 @@ public class TwoSumHash {
             return null;
         }
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 0; i <= numbers.length - 1; i++) {
             for (int j = numbers[i] + 1; j < numbers.length; j++) {
                 if(numbers[i] + numbers[j] == target) {
                     returnPair[0] = numbers[i];

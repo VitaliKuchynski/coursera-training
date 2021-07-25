@@ -15,24 +15,24 @@ public class ShortestUnsortedSubarrayToSortArray {
 
     public static int[] shortSub(int[] ints) {
 
-        if(ints == null || ints.length == 0) {
+        if (ints == null || ints.length == 0) {
             return null;
         }
 
         int left, right;
 
-        for(left = 0; left < ints.length - 1; left++) {
+        for (left = 0; left < ints.length - 1; left++) {
             if (ints[left + 1] < ints[left]) {
                 break;
             }
         }
 
-        if(left == (ints.length - 1)) {
+        if (left == (ints.length - 1)) {
             return null;
         }
 
-        for(right = ints.length - 1; right > 0 ; right--) {
-            if(ints[right - 1] > ints[right]) {
+        for (right = ints.length - 1; right > 0; right--) {
+            if (ints[right - 1] > ints[right]) {
                 break;
             }
         }
@@ -40,15 +40,15 @@ public class ShortestUnsortedSubarrayToSortArray {
         int maxValue = Integer.MIN_VALUE;
         int minValue = Integer.MAX_VALUE;
 
-        for (int i = left; i <= right ; i++) {
-            if(ints[i] > maxValue )
+        for (int i = left; i <= right; i++) {
+            if (ints[i] > maxValue)
                 maxValue = ints[i];
-            if(ints[i] < minValue)
+            if (ints[i] < minValue)
                 minValue = ints[i];
 
         }
 
-        while (ints[left - 1] > minValue && left > 0){
+        while (ints[left - 1] > minValue && left > 0) {
             left--;
         }
 
@@ -56,7 +56,7 @@ public class ShortestUnsortedSubarrayToSortArray {
             right++;
         }
 
-        for (int i = left; i <= right ; i++) {
+        for (int i = left; i <= right; i++) {
             System.out.println(ints[i]);
 
         }

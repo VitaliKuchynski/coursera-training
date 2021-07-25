@@ -10,7 +10,7 @@ public class PartitioningArrayMoveZeroes {
 // Space Complexity: O(1)
 
     public static void main(String[] args) {
-
+                //0 1 2 3 4 5 6 7
     int[] ints = {2,4,0,4,3,4,1,0};
 
         System.out.println(Arrays.toString(moveZeroesToTheEnd(ints)));

@@ -21,7 +21,6 @@ public class DutchNationalProblem {
     }
 
 
-
     public static int[] rearrangeArrayTreeSections(int[] inputArray, int pivot) {
 
         if (inputArray == null || inputArray.length == 0){
