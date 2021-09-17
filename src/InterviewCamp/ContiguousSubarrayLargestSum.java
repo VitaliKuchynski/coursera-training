@@ -2,13 +2,14 @@ package InterviewCamp;
 
 
 //Level: Medium Given an array of integers that can be both +ve and -ve,
-// find the contiguous subarray with the largest sum
+// find the contiguous subarray with the largest sum Kadane's algorithm
 
 public class ContiguousSubarrayLargestSum {
 
     public static void main (String[] args) {
 
         int [] inputInts = {1, 2, -3, -2, 5, 1};
+
 
         System.out.println("Maximum contiguous sum is " +
                 maxSubArraySum(inputInts));

@@ -13,51 +13,8 @@ public class TraversingArrayReverseEvenNumbers {
         int [] origArray = {0, 4, 1, 2, 70, 11, 15, -1, -1, -1, -1};
 
         System.out.println(Arrays.toString(cloneEvenNumbers(origArray)));
-        System.out.println(Arrays.toString(returnMoved(origArray)));
 
     }
-
-
-public static int lastValidNum(int[] ints1) {
-
-    for (int i = ints1.length - 1 ; i > 0 ; i--) {
-        if (!(ints1[i] == -1)) {
-            return i;
-        }
-    }
-    return -1;
-}
-
-public static int[] returnMoved(int[] ints1) {
-        int lastValidNum = lastValidNum(ints1);
-        int endOfArray = ints1.length;
-
-
-        while(lastValidNum >= 0) {
-
-            if (ints1[lastValidNum] % 2 == 0) {
-                endOfArray--;
-                ints1[endOfArray] = ints1[lastValidNum];
-                endOfArray--;
-                ints1[endOfArray] = ints1[lastValidNum];
-            } else {
-                endOfArray--;
-                ints1[endOfArray] = ints1[lastValidNum];
-            }
-            lastValidNum--;
-        }
-        return ints1;
-}
-
-
-
-
-
-
-
-
-
-
 
 
     public static int [] cloneEvenNumbers(int[] inputArray) {

@@ -35,7 +35,6 @@ public class TwoSumTwoPointersSorted {
             } else {
             finalOutput[0] = inputsArray[start];
             finalOutput[1] = inputsArray[end];
-
             return finalOutput ;
             }
         }
