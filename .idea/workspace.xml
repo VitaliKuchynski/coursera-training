@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/coursera-training.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_5_57_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_17_2021_5_57_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindClosestToTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindInsertionIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/BinarySearchWithDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarraySumsToTargetPrefixTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarraySumsToTargetPrefixTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SubstringUniqueCharacters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Sudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/Sudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vogo7mvfWmAXbzsN4IyUrsxECK" />
@@ -128,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContiguousSubarraySumsToTargetPrefixTech" />
-        <item itemvalue="Application.ShortestUnsortedSubarrayToSortArray" />
         <item itemvalue="Application.TwoSumTwoPointersSorted" />
-        <item itemvalue="Application.FindClosestToTarget" />
         <item itemvalue="Application.Sudo" />
+        <item itemvalue="Application.ShortestUnsortedSubarrayToSortArray" />
+        <item itemvalue="Application.FindClosestToTarget" />
+        <item itemvalue="Application.ContiguousSubarraySumsToTargetPrefixTech" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +140,7 @@
       <workItem from="1627234029519" duration="202000" />
       <workItem from="1627234238473" duration="2148000" />
       <workItem from="1627240495904" duration="22000" />
-      <workItem from="1630681895972" duration="35525000" />
+      <workItem from="1630681895972" duration="36092000" />
     </task>
     <servers />
   </component>
