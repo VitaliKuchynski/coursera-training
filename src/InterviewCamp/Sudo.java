@@ -36,19 +36,24 @@ public class Sudo {
     public static boolean solveSudoku(int[][] board, int i, int j, BoardChecker checker) {
 
         for (int h = 0; h < board.length; h++) {
-
             System.out.println(Arrays.toString(board[h]));
         }
         System.out.println("---");
+        System.out.println(" test  i j " + i + " " + j);
+        System.out.println("---");
+
+
 
         if (i == board.length) return true;
         Pair next = nextSquare(i, j);
         if (board[i][j] != 0) return solveSudoku(board, next.i(), next.j(), checker);
         for (int candidate = 1; candidate <= 9; candidate++) {
+            System.out.println("Test candidate " + candidate);
             if (checker.canPlace(i, j, candidate)) {
                 // place candidate on square
                 checker.place(i, j, candidate);
                 board[i][j] = candidate;
+                System.out.println("Test board and candidate " +  board[i][j] + " " + candidate);
                 if (solveSudoku(board, next.i(), next.j(), checker)) return true;
                 // remove candidate from square
                 checker.remove(i, j, candidate);
@@ -83,6 +88,15 @@ public class Sudo {
         }
 
         public boolean canPlace(int i, int j, int number) {
+            System.out.println("-------------------");
+            System.out.println("test i j num " + i + " " + j + " " + number);
+            System.out.println(" test row " + row[i][number]);
+            System.out.println(" test column " + column[j][number]);
+            System.out.println(" test box " + box[boxNumber(i, j)][number]);
+
+
+
+
             if (row[i][number]) return false;
             if (column[j][number]) return false;
             if (box[boxNumber(i, j)][number]) return false;

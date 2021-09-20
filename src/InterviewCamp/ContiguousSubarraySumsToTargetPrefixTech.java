@@ -43,31 +43,4 @@ public class ContiguousSubarraySumsToTargetPrefixTech {
         }
             return null;
     }
-
-    public static int[] sumPre (int[] ints, int target) {
-        int sum =0;
-        int[] result = new int[2];
-
-        Map<Integer, Integer> sumCount = new HashMap<>();
-
-        for (int i = 0; i < ints.length; i++) {
-
-            sum += ints[i];
-
-            if (sum == target) {
-                result[0] = 0;
-                result[1] = i;
-                return result;
-            }
-            if (sumCount.containsKey(sum - target)) {
-                result[0] = sumCount.get(sum - target) + 1;
-                result[1] = i;
-                return result;
-            }
-
-            sumCount.put(sum, i);
-
-        }
-        return  null;
-    }
 }

@@ -9,40 +9,8 @@ public class ReverseTwoPointers {
 
         int[] origArray = {0, 1, 2, 70, 11, 15, 7, 4};
 
-        System.out.println(Arrays.toString(reverseAr(origArray)));
+        System.out.println(Arrays.toString(reverse(origArray)));
     }
-
-    public static int[] reverseAr(int[] ints) {
-
-        int start = 0, end = ints.length - 1;
-
-        while(start < end){
-            change(ints ,start, end);
-            start++;
-            end--;
-        }
-     return ints;
-    }
-
-    public static void change(int[] ints, int star, int end) {
-
-        int tem = ints[star];
-        ints[star] = ints[end];
-        ints[end] = tem;
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public static int[] reverse(int[] inputArray) {

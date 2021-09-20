@@ -1,6 +1,6 @@
-package InterviewCamp;
+package InterviewCamp.binarySearch;
 
-public class BinarySearch {
+public class BinarySearchWithDuplicates {
 
     //Given a sorted array, search for a target item.
 
