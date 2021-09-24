@@ -5,9 +5,9 @@ public class FindInsertionIndex {
     // Return the index where it would be placed if inserted in order
 
     public static void main(String[] args) {
-
-        int[] input = {1, 2,3,3,4, 4, 5, 6, 8};
-        int target = 2 ;
+                    // 0  1  2  3  4  5  6  7  8
+        int[] input = {1, 2, 3, 3, 4, 4, 5, 6, 8};
+        int target = 2;
 
         System.out.println(returnInsertionIndex(input, target));
    }

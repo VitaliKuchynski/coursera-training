@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/DutchNationalProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/DutchNationalProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindInsertionIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindInsertionIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +36,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../otus_java_2020_12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22873563" />
   </component>
-  <component name="RunManager" selected="Application.ContiguousSubarraySumsToTargetPrefixTech">
+  <component name="RunManager" selected="Application.SearchArrayUnknownLength">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -54,21 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContiguousSubarraySumsToTargetPrefixTech" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ContiguousSubarraySumsToTargetPrefixTech" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindClosestToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.FindClosestToTarget" />
+    <configuration name="CyclicallySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.CyclicallySortedArray" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedSubarrayToSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ShortestUnsortedSubarrayToSortArray" />
+    <configuration name="DutchNationalProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.DutchNationalProblem" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sudo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Sudo" />
+    <configuration name="FindInsertionIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.FindInsertionIndex" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -106,26 +95,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTwoPointersSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.TwoSumTwoPointersSorted" />
+    <configuration name="SearchArrayUnknownLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchArrayUnknownLength" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
+          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchPeak" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSumTwoPointersSorted" />
-        <item itemvalue="Application.Sudo" />
-        <item itemvalue="Application.ShortestUnsortedSubarrayToSortArray" />
-        <item itemvalue="Application.FindClosestToTarget" />
-        <item itemvalue="Application.ContiguousSubarraySumsToTargetPrefixTech" />
+        <item itemvalue="Application.SearchArrayUnknownLength" />
+        <item itemvalue="Application.SearchPeak" />
+        <item itemvalue="Application.FindInsertionIndex" />
+        <item itemvalue="Application.CyclicallySortedArray" />
+        <item itemvalue="Application.DutchNationalProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +156,8 @@
       <workItem from="1627234238473" duration="2148000" />
       <workItem from="1627240495904" duration="22000" />
       <workItem from="1630681895972" duration="36092000" />
+      <workItem from="1632152650356" duration="13494000" />
+      <workItem from="1632322820277" duration="24395000" />
     </task>
     <servers />
   </component>
@@ -157,5 +174,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/binarySearch/SearchArrayUnknownLength.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
