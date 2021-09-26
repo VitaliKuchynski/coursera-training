@@ -9,7 +9,7 @@ public class SearchPeak {
     // So A[0] can be a peak if A[1] < A[0].
     public static void main(String[] args) {
 
-        int[] input = {1, 2, 3, 4, 5, 8, 9, 10};
+        int[] input = {1, 2, 3, 4, 5, 7, 8, 6, 9};
 
 
         System.out.println(findPeak(input));
@@ -32,9 +32,9 @@ public class SearchPeak {
 
             if (left < ints[mid] && right > ints[mid]) {
                 start = mid + 1; // go right
-            } else if (right < ints[mid] && left > ints[mid]) {
+            } else if (left > ints[mid] && right < ints[mid]) {
                 end = mid - 1; // go left
-            } else  if (right > ints[mid] && left > ints[mid]) {
+            } else  if (left > ints[mid] && right > ints[mid]) {
                 end = mid - 1;
             } else {
                 return mid;

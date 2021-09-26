@@ -2,13 +2,15 @@ package InterviewCamp.binarySearch;
 
 public class FindClosestToTarget {
 
+//(Level: Easy) Given a sorted array A and a target T, find the target.
+// If the target is not in the array, find the number closest to the target
+
     public static void main(String[] args) {
 
         int[] input = {1, 2, 3, 4, 5, 8, 9, 10};
         int target = 6;
 
         System.out.println(findClosestToTarget(input, target));
-
     }
 
 
