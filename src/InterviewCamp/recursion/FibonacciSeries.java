@@ -6,7 +6,7 @@ public class FibonacciSeries {
 
     public static void main(String[] args) {
 
-        fibonacci(3);
+        fibonacci(8);
 
     }
 
@@ -36,9 +36,15 @@ public class FibonacciSeries {
     if (memo.containsKey(n)) // lookup memo
           return memo.get(n);
 
-        int result = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+       int i =  fibonacci(n - 1, memo);
+       int i2 =  fibonacci(n - 2, memo);
+       System.out.println("first fib " + i);
+       System.out.println("second fib " + i2);
+       System.out.println("result " + (i + i2));
 
-        System.out.println(n + "  " + result);
+        int result = i + i2;
+
+        System.out.println( "number  " + n + "  result: " + result);
         memo.put(n, result); // insert memo
         System.out.println(memo.toString());
         return result;
