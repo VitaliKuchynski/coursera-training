@@ -2,7 +2,7 @@ package InterviewCamp.recursion;
 
 import java.util.Arrays;
 
-public class printCombinations {
+public class PrintCombinations {
 
     //Technique: Permutations/Combinations using Auxiliary Buffer
 
