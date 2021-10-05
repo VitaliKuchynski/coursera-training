@@ -39,17 +39,16 @@ public class PrintCombinations {
             return;
         }
 
-
+        int o;
         // find candidates that go into current buffer index
         for (int i = startIndex; i < ints.length; i++) {
             // place item into buffer
             buffer[bufferIndex] = ints[i];
 
-
+            o=i;
             // recurse to next buffer index
             printComboHelper(ints, buffer, i + 1, bufferIndex + 1);
         }
-
     }
 
 
