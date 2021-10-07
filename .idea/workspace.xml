@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22873563" />
   </component>
-  <component name="RunManager" selected="Application.PrintAllSubsetsArray">
+  <component name="RunManager" selected="Application.CoinChange">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberMnemonics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PhoneNumberMnemonics" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.CoinChange" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedSubarrayToSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ShortestUnsortedSubarrayToSortArray" />
+    <configuration name="PrintPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintPermutations" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTwoPointersSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.TwoSumTwoPointersSorted" />
+    <configuration name="ShortestUnsortedSubarrayToSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ShortestUnsortedSubarrayToSortArray" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.PrintPermutations" />
         <item itemvalue="Application.PrintAllSubsetsArray" />
         <item itemvalue="Application.PrintCombinations" />
         <item itemvalue="Application.ShortestUnsortedSubarrayToSortArray" />
-        <item itemvalue="Application.TwoSumTwoPointersSorted" />
-        <item itemvalue="Application.PhoneNumberMnemonics" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1632152650356" duration="13494000" />
       <workItem from="1632322820277" duration="24395000" />
       <workItem from="1633396749314" duration="4310000" />
-      <workItem from="1633435295264" duration="27082000" />
+      <workItem from="1633435295264" duration="33429000" />
     </task>
     <servers />
   </component>
