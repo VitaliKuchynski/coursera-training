@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.recursion;
 
 import java.util.Arrays;
 
@@ -38,23 +38,37 @@ public class Sudo {
         for (int h = 0; h < board.length; h++) {
             System.out.println(Arrays.toString(board[h]));
         }
-        System.out.println("---");
+
+        System.out.println("------------------------------------");
         System.out.println(" test  i j " + i + " " + j);
-        System.out.println("---");
+        System.out.println("-------------------------------------");
 
 
 
-        if (i == board.length) return true;
+        if (i == board.length) {
+            return true;
+        }
+
         Pair next = nextSquare(i, j);
-        if (board[i][j] != 0) return solveSudoku(board, next.i(), next.j(), checker);
+
+        if (board[i][j] != 0) {
+            return solveSudoku(board, next.i(), next.j(), checker);
+        }
+
         for (int candidate = 1; candidate <= 9; candidate++) {
+
             System.out.println("Test candidate " + candidate);
+
             if (checker.canPlace(i, j, candidate)) {
                 // place candidate on square
                 checker.place(i, j, candidate);
                 board[i][j] = candidate;
+
                 System.out.println("Test board and candidate " +  board[i][j] + " " + candidate);
-                if (solveSudoku(board, next.i(), next.j(), checker)) return true;
+
+                if (solveSudoku(board, next.i(), next.j(), checker)) {
+                    return true;
+                }
                 // remove candidate from square
                 checker.remove(i, j, candidate);
                 board[i][j] = 0;
@@ -84,12 +98,21 @@ public class Sudo {
                         place(i, j, board[i][j]);
                     }
                 }
+                for (int h = 0; h < row.length; h++) {
+                    System.out.println( "row " + Arrays.toString(row[h]));
+                }
+                for (int h = 0; h < column.length; h++) {
+                    System.out.println(Arrays.toString(column[h]));
+                }
+                for (int h = 0; h < box.length; h++) {
+                    System.out.println(Arrays.toString(box[h]));
+                }
             }
         }
 
         public boolean canPlace(int i, int j, int number) {
             System.out.println("-------------------");
-            System.out.println("test i j num " + i + " " + j + " " + number);
+            System.out.println("test i j num " + i + " " + j + " : " + number);
             System.out.println(" test row " + row[i][number]);
             System.out.println(" test column " + column[j][number]);
             System.out.println(" test box " + box[boxNumber(i, j)][number]);

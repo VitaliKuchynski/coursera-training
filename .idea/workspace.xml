@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Sudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22873563" />
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.Sudo">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSubsetsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintAllSubsetsArray" />
+    <configuration name="ContiguousSubarrayLargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ContiguousSubarrayLargestSum" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintCombinations" />
+    <configuration name="MazeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.MazeProblem" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintPermutations" />
+    <configuration name="Sudo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.Sudo" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedSubarrayToSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ShortestUnsortedSubarrayToSortArray" />
+    <configuration name="WordBreakProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.WordBreakProblem" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sudo" />
+        <item itemvalue="Application.WordBreakProblem" />
+        <item itemvalue="Application.MazeProblem" />
+        <item itemvalue="Application.ContiguousSubarrayLargestSum" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.PrintPermutations" />
-        <item itemvalue="Application.PrintAllSubsetsArray" />
-        <item itemvalue="Application.PrintCombinations" />
-        <item itemvalue="Application.ShortestUnsortedSubarrayToSortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1632152650356" duration="13494000" />
       <workItem from="1632322820277" duration="24395000" />
       <workItem from="1633396749314" duration="4310000" />
-      <workItem from="1633435295264" duration="33429000" />
+      <workItem from="1633435295264" duration="66641000" />
     </task>
     <servers />
   </component>
@@ -191,6 +191,16 @@
           <line>135</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/WordBreakProblem.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java</url>
           <line>30</line>
@@ -199,6 +209,10 @@
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="26" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
