@@ -80,9 +80,13 @@ public class Sudo {
 
     /* * Helper Code: Ask the interviewer if they want you to implement this. */
     public static Pair nextSquare(int i, int j) {
-        if (j == 8) return new Pair(i + 1, 0);
-        else
+
+        if (j == 8) {
+            return new Pair(i + 1, 0);
+        }
+        else {
             return new Pair(i, j + 1);
+        }
     }
 
     public static class BoardChecker {
@@ -101,12 +105,15 @@ public class Sudo {
                 for (int h = 0; h < row.length; h++) {
                     System.out.println( "row " + Arrays.toString(row[h]));
                 }
+                System.out.println("-------------------------------------");
                 for (int h = 0; h < column.length; h++) {
-                    System.out.println(Arrays.toString(column[h]));
+                    System.out.println("column" + Arrays.toString(column[h]));
                 }
+                System.out.println("-------------------------------------");
                 for (int h = 0; h < box.length; h++) {
-                    System.out.println(Arrays.toString(box[h]));
+                    System.out.println("box" + Arrays.toString(box[h]));
                 }
+                System.out.println("-------------------------------------");
             }
         }
 
@@ -118,16 +125,23 @@ public class Sudo {
             System.out.println(" test box " + box[boxNumber(i, j)][number]);
 
 
+            if (row[i][number]) {
+                return false;
+            }
+            if (column[j][number]){
+                return false;
+            }
 
-
-            if (row[i][number]) return false;
-            if (column[j][number]) return false;
-            if (box[boxNumber(i, j)][number]) return false;
+            if (box[boxNumber(i, j)][number]) {
+                return false;
+            }
             return true;
         }
 
         public boolean place(int i, int j, int number) {
-            if (!canPlace(i, j, number)) return false;
+            if (!canPlace(i, j, number)) {
+                return false;
+            }
             row[i][number] = true;
             column[j][number] = true;
             box[boxNumber(i, j)][number] = true;
