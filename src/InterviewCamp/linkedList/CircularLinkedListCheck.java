@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.linkedList;
 
 public class CircularLinkedListCheck {
 

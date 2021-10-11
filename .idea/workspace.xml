@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Sudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +163,7 @@
       <workItem from="1632152650356" duration="13494000" />
       <workItem from="1632322820277" duration="24395000" />
       <workItem from="1633396749314" duration="4310000" />
-      <workItem from="1633435295264" duration="66641000" />
+      <workItem from="1633435295264" duration="69132000" />
     </task>
     <servers />
   </component>
