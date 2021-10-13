@@ -104,12 +104,43 @@ public class LinkedList {
         return result;
     }
 
-    public static void appendList(LinkedList toAppend, LinkedList original ) {
+    public static void appendList(LinkedList toAppend, LinkedList original) {
         if (toAppend == null || toAppend.head == null) {
             return;
         }
 
         original.append(toAppend.head);
         original.tail = toAppend.tail;
+    }
+
+    public LinkedList getOddEven(LinkedList input) {
+
+        LinkedList odd = new LinkedList();
+        LinkedList even = new LinkedList();
+
+        Node current = input.head;
+        int index = 0;
+
+        while (current != null) {
+            index++;
+            LinkedList destination = index % 2 == 0 ? even : odd;
+            destination.append(current);
+            current = current.getNext();
+
+        }
+
+        if (even.getTail() != null) {
+            even.getTail().setNext(null);
+        }
+
+        if (odd.getTail() != null) {
+            odd.getTail().setNext(null);
+        }
+
+        LinkedList result = new LinkedList();
+        appendList(odd, result);
+        appendList(even, result);
+       return result;
+
     }
 }
