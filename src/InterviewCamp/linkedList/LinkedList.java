@@ -13,6 +13,7 @@ public class LinkedList {
 
     public LinkedList() {
         super();
+        this.head = null;
     }
 
     public Node getHead() {
@@ -43,7 +44,7 @@ public class LinkedList {
             }
 
             if (node == null) {
-                throw new IndexOutOfBoundsException("No node at index" + Integer.toString(n));
+                throw new IndexOutOfBoundsException("No node at index " + Integer.toString(n));
             }
         }
         return node;
@@ -64,6 +65,7 @@ public class LinkedList {
         if (input == null) {
             return new LinkedList();
         }
+
         LinkedList list0 = new LinkedList();
         LinkedList list1 = new LinkedList();
         LinkedList list2 = new LinkedList();
@@ -72,6 +74,7 @@ public class LinkedList {
 
         while (current != null) {
             switch (current.getData()) {
+
                 case 0: list0.append(current);
                 break;
                 case 1: list1.append(current);
