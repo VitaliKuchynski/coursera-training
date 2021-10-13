@@ -8,7 +8,8 @@ public class CircularLinkedListCheck {
         Node next;
 
         public Node(int tmp) {
-            data = tmp;}
+            data = tmp;
+        }
     }
 
     public static boolean isCircularLinkedList(Node node) {
