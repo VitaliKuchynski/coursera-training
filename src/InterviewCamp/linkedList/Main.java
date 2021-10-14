@@ -25,7 +25,7 @@ public class Main {
 
         LinkedList linkedList = new LinkedList(n1, n7);
 
-       linkedList.deleteNode(n1, n2);
+       linkedList.deleteWithoutPrevNode(n1);
 
         //System.out.println(linkedList.get(6).getData());
 

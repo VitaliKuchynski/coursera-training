@@ -177,6 +177,16 @@ public class LinkedList {
         if (prev != null) {
             prev.setNext(toDelete.getNext());
         }
+    }
+
+    public void deleteWithoutPrevNode(Node toDelete) {
+        Node next = toDelete.getNext();
+        if (next == null) {
+            return;
+        }
+
+        toDelete.setData(next.getData());
+        deleteNode(next, toDelete);
 
     }
 }
