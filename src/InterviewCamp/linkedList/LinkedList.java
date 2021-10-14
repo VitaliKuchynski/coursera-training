@@ -14,6 +14,7 @@ public class LinkedList {
     public LinkedList() {
         super();
         this.head = null;
+        this.tail = null;
     }
 
     public Node getHead() {
@@ -49,7 +50,10 @@ public class LinkedList {
         }
         return node;
     }
-
+    // A function that adds a node to a linked list.
+   // Level: EasyThe append function is especially useful in Linked List problems.
+    // On the face, it is pretty simple.
+    // But once you know it by heart, you can apply it to a ton of problems quickly
     public void append(Node toAdd) {
 
         if(head == null) {
@@ -59,6 +63,12 @@ public class LinkedList {
         }
         tail = toAdd;
     }
+
+
+    //(Level: Easy) You are given a Linked List with nodes that have values 0, 1 or 2.
+    // Sort the linked list. For example,
+    //Input: 1 -> 0 -> 2 -> 1 -> 2 -> 1
+    //Output: 0 -> 1 -> 1 -> 1 -> 2 -> 2
 
     public static LinkedList sortList(LinkedList input) {
 
@@ -97,7 +107,6 @@ public class LinkedList {
             list2.tail.next = null;
         }
 
-
         //attached list in sequence
         LinkedList result = new LinkedList();
         appendList(list0, result);
@@ -116,7 +125,15 @@ public class LinkedList {
         original.tail = toAppend.tail;
     }
 
-    public LinkedList getOddEven(LinkedList input) {
+    // (Level: Easy) Odd Even Linked List: Given a Linked List L, separate it into 2 Linked Lists.
+    // One contains L's odd nodes and the other contains L's even nodes.
+    // For example: Input: Head -> 1 -> 2 -> 3 -> 4 -> 5
+    // Result 1: Head -> 1 -> 3 -> 5
+    // Result 2: Head -> 2 -> 4
+    //
+    // Note: Odd and Even here refer to the node's position, not value.
+
+    public static LinkedList getOddEven(LinkedList input) {
 
         LinkedList odd = new LinkedList();
         LinkedList even = new LinkedList();
@@ -144,6 +161,22 @@ public class LinkedList {
         appendList(odd, result);
         appendList(even, result);
        return result;
+
+    }
+
+    public  void deleteNode(Node toDelete, Node prev) {
+        if (toDelete == null) {
+            return;
+        }
+        if (toDelete == head) {
+            head = toDelete.getNext();
+        } else if (toDelete == tail) {
+            tail = prev;
+        }
+
+        if (prev != null) {
+            prev.setNext(toDelete.getNext());
+        }
 
     }
 }
