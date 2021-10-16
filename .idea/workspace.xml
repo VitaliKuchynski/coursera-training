@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/CircularLinkedListCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/CircularLinkedListCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/MazeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/MazeProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +50,26 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22873563" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.FastSlowPointers">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastSlowPointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.FastSlowPointers" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,19 +96,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InterviewCamp.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MazeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.MazeProblem" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FastSlowPointers" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Sudo" />
         <item itemvalue="Application.WordBreakProblem" />
-        <item itemvalue="Application.MazeProblem" />
       </list>
     </recent_temporary>
   </component>

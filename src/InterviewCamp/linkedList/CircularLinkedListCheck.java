@@ -4,8 +4,8 @@ public class CircularLinkedListCheck {
 
 
     static class Node {
-        int data;
         Node next;
+        int data;
 
         public Node(int tmp) {
             data = tmp;
@@ -56,7 +56,8 @@ public class CircularLinkedListCheck {
         n4.next = n5;
         n5.next = n1;
 
-        System.out.println("Is it circular linked list: "+isCircularLinkedList(n1));
+
+        System.out.println("Is it circular linked list: "+ isCircularLinkedList(n1));
     }
 
 }
