@@ -31,7 +31,9 @@ public class FastSlowPointers {
         Node fast = head, slow = head;
 
         while (fast != null) {
+
             fast = fast.getNext();
+
             if (fast == slow) {
                 return true;
             }

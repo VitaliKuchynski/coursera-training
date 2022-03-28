@@ -1,5 +1,6 @@
 package InterviewCamp.linkedList;
 
+// Easy: Find if a given Linked List has a cycle
 public class CircularLinkedListCheck {
 
 
@@ -32,7 +33,7 @@ public class CircularLinkedListCheck {
                 return false;
             }
 
-            if(slow == null || fast == null) {// if either hits null..no loop
+            if(slow == null || fast == null) { // if either hits null..no loop
                 return false;
             }
 
