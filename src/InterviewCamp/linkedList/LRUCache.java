@@ -17,7 +17,6 @@ public class LRUCache<K, V> {
         this.cacheCapacity = cacheCapacity;
     }
 
-
     //Read a value from cache
     public V read(K key) {
         Node<K, V> node = map.get(key);

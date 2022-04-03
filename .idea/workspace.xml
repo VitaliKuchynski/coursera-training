@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/IsPalindromeReverseTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/NodeDoubly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/ReverseLinkedListTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/SmallestSubarrayCoveringAllValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/CircularLinkedListCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/CircularLinkedListCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/MazeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/MazeProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dadaStructuresRobEdwardsSDSU/HashI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,7 +55,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22873563" />
   </component>
-  <component name="RunManager" selected="Application.FastSlowPointers">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dadaStructuresRobEdwardsSDSU" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IsPalindromeReverseTechnique">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -64,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastSlowPointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.FastSlowPointers" />
+    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dadaStructuresRobEdwardsSDSU.Hash" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dadaStructuresRobEdwardsSDSU.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindromeReverseTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.IsPalindromeReverseTechnique" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.LinkedList" />
+    <configuration name="ReverseLinkedListTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.ReverseLinkedListTechnique" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.Main" />
+    <configuration name="SmallestSubarrayCoveringAllValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.SmallestSubarrayCoveringAllValues" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sudo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.Sudo" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
+          <option name="PATTERN" value="InterviewCamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,37 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreakProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.WordBreakProblem" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FastSlowPointers" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.Sudo" />
-        <item itemvalue="Application.WordBreakProblem" />
+        <item itemvalue="Application.IsPalindromeReverseTechnique" />
+        <item itemvalue="Application.ReverseLinkedListTechnique" />
+        <item itemvalue="Application.SmallestSubarrayCoveringAllValues" />
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.Hash" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +178,21 @@
       <workItem from="1632322820277" duration="24395000" />
       <workItem from="1633396749314" duration="4310000" />
       <workItem from="1633435295264" duration="99677000" />
+      <workItem from="1635517497065" duration="1803000" />
+      <workItem from="1637240411129" duration="361000" />
+      <workItem from="1638241008218" duration="2211000" />
+      <workItem from="1640140833797" duration="165000" />
+      <workItem from="1640657256443" duration="2922000" />
+      <workItem from="1646531810928" duration="71778000" />
     </task>
+    <task id="LOCAL-00001" summary="LRU">
+      <created>1648505789310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648505789310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +209,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LRU" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
