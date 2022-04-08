@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/IsPalindromeReverseTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/NodeDoubly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/ReverseLinkedListTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/SmallestSubarrayCoveringAllValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dadaStructuresRobEdwardsSDSU/HashI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IsPalindromeReverseTechnique">
+  <component name="RunManager" selected="Application.Queue">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -74,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dadaStructuresRobEdwardsSDSU.Hash" />
+    <configuration name="IsPalindromeReverseTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.IsPalindromeReverseTechnique" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dadaStructuresRobEdwardsSDSU.*" />
+          <option name="PATTERN" value="InterviewCamp.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindromeReverseTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.IsPalindromeReverseTechnique" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.Queue" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.linkedList.*" />
+          <option name="PATTERN" value="InterviewCamp.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
+    <configuration name="StackReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.StackReverse" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
+          <option name="PATTERN" value="InterviewCamp.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.IsPalindromeReverseTechnique" />
+        <item itemvalue="Application.StackReverse" />
         <item itemvalue="Application.ReverseLinkedListTechnique" />
         <item itemvalue="Application.SmallestSubarrayCoveringAllValues" />
-        <item itemvalue="Application.Testing" />
-        <item itemvalue="Application.Hash" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +164,10 @@
       <workItem from="1638241008218" duration="2211000" />
       <workItem from="1640140833797" duration="165000" />
       <workItem from="1640657256443" duration="2922000" />
-      <workItem from="1646531810928" duration="71778000" />
+      <workItem from="1646531810928" duration="89565000" />
+      <workItem from="1649293396777" duration="328000" />
+      <workItem from="1649293940343" duration="407000" />
+      <workItem from="1649294720939" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -192,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648505789310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LRU">
+      <created>1649022136772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649022136772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
