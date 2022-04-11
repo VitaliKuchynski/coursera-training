@@ -1,5 +1,5 @@
 package InterviewCamp.stack;
-
+//Level: Medium Use an array to implement 2 Stacks.
 public class ArrayStack {
     int[] a;
 
