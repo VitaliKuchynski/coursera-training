@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/coursera-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coursera-training.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="stack evaluate expr" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649376312775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stack evaluate expr">
+      <created>1649865831509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649865831509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +224,8 @@
     <MESSAGE value="LRU" />
     <MESSAGE value="stack" />
     <MESSAGE value="stack max" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack max" />
+    <MESSAGE value="stack evaluate expr" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack evaluate expr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
