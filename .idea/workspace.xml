@@ -61,7 +61,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExpressionEvaluationStack">
+  <component name="RunManager" selected="Application.Testing">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -88,25 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindromeReverseTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.IsPalindromeReverseTechnique" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.Queue" />
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.Queue" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.stack.*" />
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedListTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.linkedList.ReverseLinkedListTechnique" />
+    <configuration name="QueueSlidingWindowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueSlidingWindowSum" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.linkedList.*" />
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.StackReverse" />
+    <configuration name="StockPriceWithTimeSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.StockPriceWithTimeSlidingWindow" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.stack.*" />
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.StockPriceWithTimeSlidingWindow" />
+        <item itemvalue="Application.QueueSlidingWindowSum" />
+        <item itemvalue="Application.Queue (1)" />
         <item itemvalue="Application.ExpressionEvaluationStack" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.IsPalindromeReverseTechnique" />
-        <item itemvalue="Application.StackReverse" />
-        <item itemvalue="Application.ReverseLinkedListTechnique" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649865993096</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stack evaluate expr">
+      <created>1649869246995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649869246995</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
