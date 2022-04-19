@@ -1,7 +1,7 @@
 package InterviewCamp.queue;
 
 import InterviewCamp.stack.EmptyQueueException;
-
+//Level:Easy Implement a Queue using an array
 public class Queue {
     int[] a;
 
