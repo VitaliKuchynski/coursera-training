@@ -41,4 +41,18 @@ public class QueueWithMax {
         }
         return max.getFirst();
     }
+
+    public static void main(String[] args) throws EmptyQueueException {
+        QueueWithMax queueWithMax = new QueueWithMax();
+        queueWithMax.enqueue(1);
+        queueWithMax.enqueue(34);
+        queueWithMax.enqueue(17);
+        queueWithMax.enqueue(3);
+        queueWithMax.dequeue();
+        queueWithMax.dequeue();
+        queueWithMax.dequeue();
+
+        System.out.println(queueWithMax.findMax());
+
+    }
 }

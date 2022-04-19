@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="queue">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="queue max">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +62,13 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queue (1)">
+  <component name="RunManager" selected="Application.QueueWithMax">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionEvaluationStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.ExpressionEvaluationStack" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,6 +91,19 @@
     </configuration>
     <configuration name="QueueSlidingWindowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueSlidingWindowSum" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueWithMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueWithMax" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueWithMax" />
         <item itemvalue="Application.Queue (1)" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.StockPriceWithTimeSlidingWindow" />
         <item itemvalue="Application.QueueSlidingWindowSum" />
-        <item itemvalue="Application.ExpressionEvaluationStack" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650333613351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="queue max">
+      <created>1650389838849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650389838849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +265,8 @@
     <MESSAGE value="stack max" />
     <MESSAGE value="stack evaluate expr" />
     <MESSAGE value="queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue" />
+    <MESSAGE value="queue max" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
