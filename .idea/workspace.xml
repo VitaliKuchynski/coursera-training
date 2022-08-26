@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="queue max">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="arrays MaxDiff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/stack/ExpressionEvaluationStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/stack/ExpressionEvaluationStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1vogo7mvfWmAXbzsN4IyUrsxECK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +68,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxAmountWithTwoTradesStock2">
+  <component name="RunManager" selected="Application.TwoSumHash">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAmountWithTwoTradesStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxAmountWithTwoTradesStock2" />
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.GFG" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.arrays.*" />
+          <option name="PATTERN" value="InterviewCamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDiffStockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxDiffStockPrice" />
+    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Jump" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.arrays.*" />
+          <option name="PATTERN" value="InterviewCamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.Queue" />
+    <configuration name="PrintMatrixSpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.PrintMatrixSpiralOrder" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="PATTERN" value="InterviewCamp.array2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueWithMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueWithMax" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.RemoveDuplicatesFromSortedArray" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
+    <configuration name="TwoSumHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.TwoSumHash" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxAmountWithTwoTradesStock2" />
-        <item itemvalue="Application.MaxDiffStockPrice" />
-        <item itemvalue="Application.QueueWithMax" />
-        <item itemvalue="Application.Queue (1)" />
-        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.TwoSumHash" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.Jump" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.PrintMatrixSpiralOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +184,8 @@
       <workItem from="1649294720939" duration="280000" />
       <workItem from="1649376275587" duration="2410000" />
       <workItem from="1649660136598" duration="717000" />
+      <workItem from="1651010875165" duration="30664000" />
+      <workItem from="1651883722393" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -248,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650390286649</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="arrays MaxDiff">
+      <created>1650577369930</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650577369930</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +288,8 @@
     <MESSAGE value="stack evaluate expr" />
     <MESSAGE value="queue" />
     <MESSAGE value="queue max" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue max" />
+    <MESSAGE value="arrays MaxDiff" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays MaxDiff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,18 +317,13 @@
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/arrays/MaxDiffStockPrice.java</url>
-          <line>7</line>
-          <properties class="InterviewCamp.arrays.MaxDiffStockPrice" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="26" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="41" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

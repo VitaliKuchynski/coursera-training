@@ -9,9 +9,9 @@ public class RemoveDuplicatesFromSortedArray {
 
         int nums [] = {0,0,1,1,1,2,2,3,3,4};
 
-        int nums2 [] = {1,1,2};
+        int nums2 [] = {1,2,2};
 
-        System.out.println("New size: " + removeDuplicates(nums));
+        System.out.println("New size: " + removeDuplicates(nums2));
     }
 
     public static int removeDuplicates(int[] nums) {
@@ -37,10 +37,20 @@ public class RemoveDuplicatesFromSortedArray {
 
         }
 
-
-
-
         return temp;
 
+    }
+
+    public static int ret(int[] nums) {
+        int temp = 0;
+
+        for (int i = 0; i < nums.length - 1; i++){
+
+            if(nums[i] == nums[i+1]){
+                temp = nums[i] + nums[i] + 1;
+                return temp;
+            }
+        }
+        return 0;
     }
 }

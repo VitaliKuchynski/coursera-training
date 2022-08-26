@@ -91,7 +91,7 @@ public class ExpressionEvaluationStack {
         char[] expToEval2 = "1 + 2 / (1 + 3) * 2".toCharArray();
         char[] expToEval3 = "".toCharArray();
 
-        System.out.println(evaluateWithParenthesis(expToEval3));
+        System.out.println(evaluateWithParenthesis(expToEval1));
     }
 
 }

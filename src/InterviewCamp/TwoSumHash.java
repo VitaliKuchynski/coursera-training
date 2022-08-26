@@ -29,7 +29,7 @@ public class TwoSumHash {
         }
 
         for (int i = 0; i <= numbers.length - 1; i++) {
-            for (int j = numbers[i] + 1; j < numbers.length; j++) {
+            for (int j = i + 1; j < numbers.length; j++) {
                 if(numbers[i] + numbers[j] == target) {
                     returnPair[0] = numbers[i];
                     returnPair[1] = numbers[j];
