@@ -2,13 +2,12 @@ package InterviewCamp;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 //Level: EasyGiven an array of integers,
 // find a pair of integers that sums to a number Target.
 
-public class TwoSumHash {
+public class TwoSumHashSet {
 
     public static void main(String[] args) {
 

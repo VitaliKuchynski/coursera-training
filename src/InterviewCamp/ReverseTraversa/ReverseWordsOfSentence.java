@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.ReverseTraversa;
 
 public class ReverseWordsOfSentence {
 
