@@ -1,4 +1,4 @@
-package InterviewCamp.ReverseTraversa;
+package InterviewCamp.reverseTraversa;
 
 import java.util.Arrays;
 
