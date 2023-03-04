@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.twoPointers;
 
 import java.util.Arrays;
 

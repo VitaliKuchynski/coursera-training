@@ -1,6 +1,5 @@
-package InterviewCamp;
+package InterviewCamp.partitioningArray;
 
-import java.beans.AppletInitializer;
 import java.util.Arrays;
 
 public class DutchNationalProblem {

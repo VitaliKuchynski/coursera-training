@@ -1,10 +1,10 @@
-package InterviewCamp;
+package InterviewCamp.subArrays;
 
 
 //Level: Medium Given an array of integers that can be both +ve and -ve,
 // find the contiguous subarray with the largest sum Kadane's algorithm
 
-public class ContiguousSubarrayLargestSum {
+public class ContiguousSubArrayLargestSumKadane {
 
     public static void main (String[] args) {
 

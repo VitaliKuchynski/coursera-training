@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="arrays MaxDiff">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="add folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ReverseWordsOfSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ReverseWordsOfSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TraversingArrayReverseEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ReverseTraversa/TraversingArrayReverseEvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/ContiguousSubArrayLargestSumKadane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarraySumsToTargetPrefixTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/ContiguousSubarraySumsToTargetPrefixTech.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/DutchNationalProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/DutchNationalProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/PartitioningArrayMoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/PartitioningArrayMoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/RedWhiteBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/RedWhiteBlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ReverseTwoPointers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SegregatePrimeNonPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/SegregatePrimeNonPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ShortestUnsortedSubarrayToSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ShortestUnsortedSubarrayToSortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/SortedSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SubArraySumsToTargetSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/SubArraySumsToTargetSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumTwoPointersSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/TwoSumTwoPointersSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +75,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsOfSentence">
+  <component name="RunManager" selected="Application.ContiguousSubarraySumsToTargetPrefixTech">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -81,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.GFG" />
+    <configuration name="ContiguousSubArrayLargestSumKadane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.ContiguousSubArrayLargestSumKadane" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.ReverseTraversa.*" />
+          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Jump" />
+    <configuration name="ContiguousSubarraySumsToTargetPrefixTech" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.ContiguousSubarraySumsToTargetPrefixTech" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.ReverseTraversa.*" />
+          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsOfSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ReverseWordsOfSentence" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MoveZeroes" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversingArrayReverseEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.ReverseTraversa.TraversingArrayReverseEvenNumbers" />
+    <configuration name="SubArraySumsToTargetSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.SubArraySumsToTargetSlidingWindow" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.ReverseTraversa.*" />
+          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.TwoSumHashSet" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.ReverseTraversa.*" />
+          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseWordsOfSentence" />
-        <item itemvalue="Application.TraversingArrayReverseEvenNumbers" />
-        <item itemvalue="Application.TwoSumHashSet" />
-        <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.Jump" />
+        <item itemvalue="Application.ContiguousSubarraySumsToTargetPrefixTech" />
+        <item itemvalue="Application.SubArraySumsToTargetSlidingWindow" />
+        <item itemvalue="Application.ContiguousSubArrayLargestSumKadane" />
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +195,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="4878000" />
+      <workItem from="1677634662070" duration="24949000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -280,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675733089223</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add folder">
+      <created>1677720443024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677720443024</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add folder">
+      <created>1677720517094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677720517094</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +327,8 @@
     <MESSAGE value="queue" />
     <MESSAGE value="queue max" />
     <MESSAGE value="arrays MaxDiff" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays MaxDiff" />
+    <MESSAGE value="add folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

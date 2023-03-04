@@ -1,9 +1,11 @@
-package InterviewCamp;
+package InterviewCamp.twoPointers;
 
 import java.util.Arrays;
 
 public class TwoSumTwoPointersSorted {
-    // NOTE sorted array
+
+
+    // NOTE SORTED ARRAY
 
     public static void main(String[] args) {
 

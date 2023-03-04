@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.partitioningArray;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package InterviewCamp;
+package InterviewCamp.subArrays;
 
 import java.util.Arrays;
 
