@@ -4,11 +4,7 @@ import java.util.Arrays;
 
 public class PrintPermutations {
 
-
-    //Level: MediumCoin Change Problem:
-    // Given a set of coin denominations, print out the different ways
-    // you can make a target amount. You can use as many coins of each denomination as you like.
-
+    //Given an array of integers, print all permutation of size X.
 
     public static void main(String[] args) {
 
@@ -53,5 +49,52 @@ public class PrintPermutations {
 
         }
     }
+
+
+
+
+
+
+public static void printpermut(int[] a, int[] buffer, int bufIndex, boolean[] isInbuf) {
+
+        if (bufIndex >= buffer.length) {
+            System.out.println(Arrays.toString(buffer));
+            return;
+        }
+
+
+
+    for (int i = 0; i < a.length; i++) {
+
+        if (!isInbuf[i]) {
+
+            buffer[bufIndex] = a[i];
+            isInbuf[i] = true;
+
+            printpermut(a, buffer, bufIndex + 1, isInbuf);
+            isInbuf[i]= false;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -1,6 +1,6 @@
 package InterviewCamp.binarySearch;
 
-public class FindClosestToTarget {
+public class FindClosestToTargetRecordMove {
 
 //(Level: Easy) Given a sorted array A and a target T, find the target.
 // If the target is not in the array, find the number closest to the target

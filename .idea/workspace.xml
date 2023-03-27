@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="add folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarrayLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/ContiguousSubArrayLargestSumKadane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ContiguousSubarraySumsToTargetPrefixTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/ContiguousSubarraySumsToTargetPrefixTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/DutchNationalProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/DutchNationalProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/PartitioningArrayMoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/PartitioningArrayMoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/RedWhiteBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/partitioningArray/RedWhiteBlue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ReverseTwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ReverseTwoPointers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SegregatePrimeNonPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/SegregatePrimeNonPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/ShortestUnsortedSubarrayToSortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ShortestUnsortedSubarrayToSortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SortedSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/SortedSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/SubArraySumsToTargetSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/subArrays/SubArraySumsToTargetSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumTwoPointersSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/TwoSumTwoPointersSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindClosestToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindClosestToTargetRecordMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/TestTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContiguousSubarraySumsToTargetPrefixTech">
+  <component name="RunManager" selected="Application.MazeProblem">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -89,34 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContiguousSubArrayLargestSumKadane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.ContiguousSubArrayLargestSumKadane" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContiguousSubarraySumsToTargetPrefixTech" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.ContiguousSubarraySumsToTargetPrefixTech" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MoveZeroes" />
+    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MaximumSubarray" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySumsToTargetSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.subArrays.SubArraySumsToTargetSlidingWindow" />
+    <configuration name="MazeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.MazeProblem" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +109,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Testing" />
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeSortedArray" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.subArrays.*" />
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchArrayUnknownLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchArrayUnknownLength" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchPeak" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContiguousSubarraySumsToTargetPrefixTech" />
-        <item itemvalue="Application.SubArraySumsToTargetSlidingWindow" />
-        <item itemvalue="Application.ContiguousSubArrayLargestSumKadane" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.MazeProblem" />
+        <item itemvalue="Application.SearchArrayUnknownLength" />
+        <item itemvalue="Application.SearchPeak" />
+        <item itemvalue="Application.MaximumSubarray" />
+        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +189,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="24949000" />
+      <workItem from="1677634662070" duration="116911000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -302,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677720517094</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add folder">
+      <created>1677900096211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677900096211</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,27 +335,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/binarySearch/SearchArrayUnknownLength.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/WordBreakProblem.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java</url>
           <line>101</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java</url>
-          <line>30</line>
-          <properties class="InterviewCamp.recursion.PhoneNumberMnemonics" method="printWordHelper">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

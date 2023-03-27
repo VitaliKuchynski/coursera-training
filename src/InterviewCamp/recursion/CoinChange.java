@@ -2,6 +2,10 @@ package InterviewCamp.recursion;
 
 import java.util.Stack;
 
+//Level: MediumCoin Change Problem:
+// Given a set of coin denominations, print out the different ways
+// you can make a target amount. You can use as many coins of each denomination as you like.
+
 public class CoinChange {
 
     public static void main(String[] args) {

@@ -48,7 +48,7 @@ public class ShortestUnsortedSubarrayToSortArray {
 
         }
 
-        while (ints[left - 1] > minValue && left > 0) {
+        while (left > 0 && ints[left - 1] > minValue) {
             left--;
         }
 
