@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="add folder">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="clean up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindClosestToTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binarySearch/FindClosestToTargetRecordMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ToSumHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/TestTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/TwoSumTwoPointersSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ToSumTwoPointersSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeProblem">
+  <component name="RunManager" selected="Application.SearchPeak">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MaximumSubarray" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.CoinChange" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.MergeSortedArray" />
+    <configuration name="PrintPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintPermutations" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchArrayUnknownLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchArrayUnknownLength" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordBreakProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.WordBreakProblem" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MazeProblem" />
-        <item itemvalue="Application.SearchArrayUnknownLength" />
         <item itemvalue="Application.SearchPeak" />
-        <item itemvalue="Application.MaximumSubarray" />
-        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.PrintPermutations" />
+        <item itemvalue="Application.WordBreakProblem" />
+        <item itemvalue="Application.MazeProblem" />
+        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="116911000" />
+      <workItem from="1677634662070" duration="141414000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -303,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677900096211</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="clean up">
+      <created>1679879525922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679879525922</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,8 @@
     <MESSAGE value="queue max" />
     <MESSAGE value="arrays MaxDiff" />
     <MESSAGE value="add folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add folder" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

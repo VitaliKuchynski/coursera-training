@@ -2,7 +2,7 @@ package InterviewCamp.twoPointers;
 
 import java.util.Arrays;
 
-public class TwoSumTwoPointersSorted {
+public class ToSumTwoPointersSorted {
 
 
     // NOTE SORTED ARRAY

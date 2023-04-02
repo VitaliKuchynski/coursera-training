@@ -7,7 +7,7 @@ import java.util.Set;
 //Level: EasyGiven an array of integers,
 // find a pair of integers that sums to a number Target.
 
-public class TwoSumHashSet {
+public class ToSumHashSet {
 
     public static void main(String[] args) {
 

@@ -44,13 +44,13 @@ public class FastSlowPointers {
                     return true;
                 }
             }
-        slow = slow.getNext();
+            slow = slow.getNext();
         }
 
         return false;
     }
 
-    // Level: MediumGiven a linked list that has a cycle, find the length of the cycle.
+    // Level: Medium Given a linked list that has a cycle, find the length of the cycle.
     // The length is in number of nodes
 
     public static int findCycleLength(Node head) {
@@ -60,7 +60,7 @@ public class FastSlowPointers {
         while (fast != null) {
             fast = fast.getNext();
             if (fast == slow) {
-               break;
+                break;
             }
 
             if (fast != null) {
@@ -83,5 +83,76 @@ public class FastSlowPointers {
             nodesPassed++;
         }
         return nodesPassed;
+    }
+
+
+    // Level: Medium Find the median node of a linked list. For example:1 -> 2 -> 3 -> 4 -> 5      Median node is 3.
+    public static Node findMedian(Node head, Node tail) {
+
+        if(head == null || tail == null) {
+            return null;
+        }
+
+        Node fast = head, slow = head;
+
+        while (fast.getNext() != null) {
+            fast = fast.getNext();
+
+            if (fast.getNext() != null) {
+                fast = fast.getNext();
+                slow = slow.getNext();
+            }
+        }
+        return slow;
+    }
+
+    //  Level: MediumGiven a Linked List with a cycle, find the node where the cycle begins
+
+    public static Node findCycleStart(Node head) {
+
+        Node fast = head, slow = head;
+
+        while (fast != null) {
+            fast = fast.getNext();
+
+            if (fast == slow) {
+                break;
+            }
+
+            if (fast != null) {
+                fast = fast.getNext();
+
+                if (slow == fast) {
+                    break;
+                }
+            }
+            slow = slow.getNext();
+        }
+
+        // no cycle found
+        if (fast == null){
+            return null;
+        }
+
+        // find number nodes in cycle
+        fast = fast.getNext();
+        int cycleNodes = 1;
+        while (fast != slow) {
+            fast = fast.getNext();
+            cycleNodes +=1;
+        }
+
+        //find start of cycle
+        Node front = head, back = head;
+        for (int i = 0; i < cycleNodes; i++) {
+            front = front.getNext();
+        }
+
+        while (front != back) {
+            front = front.getNext();
+            back = back.getNext();
+        }
+
+        return front;
     }
 }

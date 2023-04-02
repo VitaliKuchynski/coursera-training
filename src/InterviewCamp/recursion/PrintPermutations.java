@@ -27,7 +27,6 @@ public class PrintPermutations {
 
     public static void printPermutationHelper(int[] ints, int[] buffer, int bufferIndex, boolean[] isInBuffer) {
 
-
         //termination case - buffer is full
         if (bufferIndex == buffer.length) {
             System.out.println(Arrays.toString(buffer));
@@ -49,52 +48,4 @@ public class PrintPermutations {
 
         }
     }
-
-
-
-
-
-
-public static void printpermut(int[] a, int[] buffer, int bufIndex, boolean[] isInbuf) {
-
-        if (bufIndex >= buffer.length) {
-            System.out.println(Arrays.toString(buffer));
-            return;
-        }
-
-
-
-    for (int i = 0; i < a.length; i++) {
-
-        if (!isInbuf[i]) {
-
-            buffer[bufIndex] = a[i];
-            isInbuf[i] = true;
-
-            printpermut(a, buffer, bufIndex + 1, isInbuf);
-            isInbuf[i]= false;
-        }
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
