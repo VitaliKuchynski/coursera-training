@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="clean up">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="linked list task added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/TwoSumHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/ToSumHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PrintPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/TwoSumTwoPointersSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/twoPointers/ToSumTwoPointersSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,39 +67,26 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchPeak">
+  <component name="RunManager" selected="Application.QueueWithMax">
+    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.ArrayStack" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.CoinChange" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MazeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.MazeProblem" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binarySearch.SearchPeak" />
+    <configuration name="QueueSlidingWindowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueSlidingWindowSum" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.binarySearch.*" />
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreakProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.WordBreakProblem" />
+    <configuration name="QueueWithMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueWithMax" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPriceWithTimeSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.StockPriceWithTimeSlidingWindow" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchPeak" />
+        <item itemvalue="Application.QueueWithMax" />
+        <item itemvalue="Application.StockPriceWithTimeSlidingWindow" />
         <item itemvalue="Application.PrintPermutations" />
-        <item itemvalue="Application.WordBreakProblem" />
-        <item itemvalue="Application.MazeProblem" />
-        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.QueueSlidingWindowSum" />
+        <item itemvalue="Application.ArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +187,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="141414000" />
+      <workItem from="1677634662070" duration="169639000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -309,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679879525922</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="linked list task added">
+      <created>1680458122657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680458122657</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +342,8 @@
     <MESSAGE value="arrays MaxDiff" />
     <MESSAGE value="add folder" />
     <MESSAGE value="clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
+    <MESSAGE value="linked list task added" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list task added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,6 +352,56 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java</url>
           <line>101</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="206" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

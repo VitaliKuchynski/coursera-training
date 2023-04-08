@@ -12,6 +12,20 @@ import java.util.Queue;
 // Your system should be able to tell the maximum stock price in the last 3 days.
 public class StockPriceWithTimeSlidingWindow {
 
+    public static void main(String[] args) {
+
+        StockPriceWithTimeSlidingWindow st = new StockPriceWithTimeSlidingWindow(3);
+
+        st.addPrice(32 ,2);
+        st.addPrice(32 ,3);
+        st.addPrice(45 ,7);
+        st.addPrice(37 ,9);
+        st.addPrice(37 ,11);
+
+        System.out.println(st.getMax());
+    }
+
+
     Queue<Price> q;
     int window;
 
@@ -20,17 +34,6 @@ public class StockPriceWithTimeSlidingWindow {
         this.window = windowDays;
     }
 
-    public static void main(String[] args) {
-
-        StockPriceWithTimeSlidingWindow st = new StockPriceWithTimeSlidingWindow(3);
-
-        st.addPrice(32 ,2);
-        st.addPrice(32 ,1);
-        st.addPrice(45 ,1);
-        st.addPrice(37 ,8);
-
-        System.out.println(st.getMax());
-    }
 
     public void addPrice(int price, int day) {
 
