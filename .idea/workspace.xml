@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="linked list task added">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="queue - max">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/queue/QueueWithMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/array2D/RotateSquareImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/array2D/RotateSquareImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,20 +67,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueWithMax">
-    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.stack.ArrayStack" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringTricks">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -94,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.recursion.PrintPermutations" />
+    <configuration name="MaxAmountWithTwoTradesStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxAmountWithTwoTradesStock2" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.recursion.*" />
+          <option name="PATTERN" value="InterviewCamp.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueWithMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueWithMax" />
+    <configuration name="RotateSquareImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.RotateSquareImage" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="PATTERN" value="InterviewCamp.array2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockPriceWithTimeSlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.StockPriceWithTimeSlidingWindow" />
+    <configuration name="StringTricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.appaysStringII.StringTricks" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="PATTERN" value="InterviewCamp.arrays.appaysStringII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagOrderPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.ZigZagOrderPrint" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.array2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueWithMax" />
-        <item itemvalue="Application.StockPriceWithTimeSlidingWindow" />
-        <item itemvalue="Application.PrintPermutations" />
+        <item itemvalue="Application.StringTricks" />
+        <item itemvalue="Application.ZigZagOrderPrint" />
+        <item itemvalue="Application.RotateSquareImage" />
+        <item itemvalue="Application.MaxAmountWithTwoTradesStock2" />
         <item itemvalue="Application.QueueSlidingWindowSum" />
-        <item itemvalue="Application.ArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="169639000" />
+      <workItem from="1677634662070" duration="200081000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -315,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680458122657</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="queue - max">
+      <created>1680958933708</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680958933709</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +350,8 @@
     <MESSAGE value="add folder" />
     <MESSAGE value="clean up" />
     <MESSAGE value="linked list task added" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list task added" />
+    <MESSAGE value="queue - max" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue - max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -352,56 +360,6 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java</url>
           <line>101</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="201" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="205" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/queue/StockPriceWithTimeSlidingWindow.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="206" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

@@ -106,7 +106,7 @@ public class FastSlowPointers {
         return slow;
     }
 
-    //  Level: MediumGiven a Linked List with a cycle, find the node where the cycle begins
+    //  Level: Medium Given a Linked List with a cycle, find the node where the cycle begins
 
     public static Node findCycleStart(Node head) {
 

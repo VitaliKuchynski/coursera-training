@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class RotateSquareImage {
 
+    // Level: Medium Rotate a 2D array clockwise by 90 degrees, like rotating the pixels of an image.
     public static void main(String[] args) {
         int [][] ar = {{1, 2, 3, 4},
                       {5, 6, 7, 8},
