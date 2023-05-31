@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="queue - max">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="2d">
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/Graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/Graph/MainGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/Graph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/Graph/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/hashTable/StringSearchRabinKarp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/array2D/RotateSquareImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/array2D/RotateSquareImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/linkedList/FastSlowPointers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/recursion/PhoneNumberMnemonics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +71,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringTricks">
+  <component name="RunManager" selected="Application.MainGraph">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAmountWithTwoTradesStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxAmountWithTwoTradesStock2" />
+    <configuration name="CountChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.CountChars" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.arrays.*" />
+          <option name="PATTERN" value="InterviewCamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSlidingWindowSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.queue.QueueSlidingWindowSum" />
+    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testTasksJob.Duplicate" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.queue.*" />
+          <option name="PATTERN" value="testTasksJob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateSquareImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.RotateSquareImage" />
+    <configuration name="MainGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.Graph.MainGraph" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.array2D.*" />
+          <option name="PATTERN" value="InterviewCamp.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTricks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.appaysStringII.StringTricks" />
+    <configuration name="StringSearchRabinKarp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.hashTable.StringSearchRabinKarp" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.arrays.appaysStringII.*" />
+          <option name="PATTERN" value="InterviewCamp.hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,26 +137,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagOrderPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.ZigZagOrderPrint" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.array2D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTricks" />
-        <item itemvalue="Application.ZigZagOrderPrint" />
-        <item itemvalue="Application.RotateSquareImage" />
-        <item itemvalue="Application.MaxAmountWithTwoTradesStock2" />
-        <item itemvalue="Application.QueueSlidingWindowSum" />
+        <item itemvalue="Application.MainGraph" />
+        <item itemvalue="Application.StringSearchRabinKarp" />
+        <item itemvalue="Application.CountChars" />
+        <item itemvalue="Application.Duplicate" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +185,7 @@
       <workItem from="1651883722393" duration="1894000" />
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
-      <workItem from="1677634662070" duration="200081000" />
+      <workItem from="1677634662070" duration="220151000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -322,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680958933709</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2d">
+      <created>1682006316275</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682006316275</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +356,8 @@
     <MESSAGE value="clean up" />
     <MESSAGE value="linked list task added" />
     <MESSAGE value="queue - max" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue - max" />
+    <MESSAGE value="2d" />
+    <option name="LAST_COMMIT_MESSAGE" value="2d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
