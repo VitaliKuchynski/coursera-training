@@ -1,4 +1,4 @@
-package InterviewCamp.Graph;
+package InterviewCamp.graph;
 
 public enum State {
     UNVISITED,
