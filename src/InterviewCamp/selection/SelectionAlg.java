@@ -6,12 +6,13 @@ public class SelectionAlg {
 
     public static void main(String[] args) {
 
-        int [] input = {5,7,4,6,5,3,3};
+        int [] input = {8,5,7,6,5,3,3};
 
         System.out.println(findKthElement(input, 3));
 
     }
 
+    //Level: Hard Find the Kth the smallest element in a given array of integers
     public static int findKthElement(int[] ints, int k) {
 
         if (ints == null || ints.length == 0 || k < 1 || k > ints.length) {
@@ -26,12 +27,15 @@ public class SelectionAlg {
         // Get random index
         int pivot  = new Random().nextInt(end - start + 1) + start;
 
+        // partitioning less grate than pivot
         int result = singlePlacementPartition(ints, start, end, pivot);
 
         if (result > targetIndex) {
-            return singlePlacementPartition(ints, start,result - 1, targetIndex);
+            // search in first part
+            return selectionAlg(ints, start,result - 1, targetIndex);
         } else if (result < targetIndex) {
-            return singlePlacementPartition(ints, start,result + 1, targetIndex);
+            // search in second
+            return selectionAlg(ints,result + 1, end, targetIndex);
         } else {
             return ints[result];
         }
@@ -40,25 +44,24 @@ public class SelectionAlg {
 
    public static int singlePlacementPartition(int[] ints, int start, int end, int pivot) {
 
-        int temp = ints[pivot];
-        ints[pivot] = ints[start];
-        ints[start] = temp;
+        swap(ints, start, pivot);
         int less = start;
 
        for (int i = start + 1; i <= end ; i++) {
 
            if (ints[i] <= ints[start]) {
-               int tempr = ints[i];
-               ints[i] = ints[++less];
-               ints[less] = tempr;
+               swap(ints, i, ++less);
            }
-
        }
 
-       int tempr = ints[less];
-       ints[less] = ints[start];
-       ints[start] = tempr;
+       swap(ints, start, less);
        return less;
+   }
+
+   public static void swap(int [] a, int index, int swapIndex) {
+        int temp = a[index];
+        a[index] = a[swapIndex];
+        a[swapIndex] = temp;
    }
 
 }

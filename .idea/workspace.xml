@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="graph">
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/BreadthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/DeptFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/heap/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/LineSweepTimeInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/MergeTimeIntervalLineSweep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/PointBuilding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/lineSweepTimeInterval/Skyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java" afterDir="false" />
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="heap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Graph/MainGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/MainGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/Graph/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +188,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="38093000" />
+      <workItem from="1685624213754" duration="49775000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -352,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685562116835</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="heap">
+      <created>1686748052052</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686748052052</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +375,8 @@
     <MESSAGE value="queue - max" />
     <MESSAGE value="2d" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+    <MESSAGE value="heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
