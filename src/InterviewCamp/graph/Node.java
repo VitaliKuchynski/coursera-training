@@ -7,12 +7,21 @@ public class Node {
     List<Node> neighbors;
     int data;
     State state;
+    int level;
 
     public Node(int data) {
         super();
         this.neighbors = new ArrayList<>();
         this.data = data;
         this.state = State.UNVISITED;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
     }
 
     public List<Node> getNeighbors() {
