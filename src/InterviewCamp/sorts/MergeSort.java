@@ -19,8 +19,6 @@ public class MergeSort {
 
     private static void merge(int [] a, int start, int mid, int end) {
 
-
-
         int [] result = new int[end - start + 1];
         int i = start, j = mid + 1, resultPos = 0;
 

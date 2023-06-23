@@ -8,6 +8,7 @@ public class Node {
     int data;
     State state;
     int level;
+    int color;
 
     public Node(int data) {
         super();
@@ -22,6 +23,14 @@ public class Node {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
     }
 
     public List<Node> getNeighbors() {
