@@ -7,10 +7,19 @@ public class Node {
     int value;
     // needed for iteratively approach
     boolean visited;
+    Node parent;
 
     public Node(int value) {
         super();
         this.value = value;
+    }
+
+    public Node getParent() {
+        return parent;
+    }
+
+    public void setParent(Node parent) {
+        this.parent = parent;
     }
 
     public Node getLeft() {
