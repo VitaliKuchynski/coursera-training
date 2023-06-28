@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="Binary Search Tree build">
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +189,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="107589000" />
+      <workItem from="1685624213754" duration="110930000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -377,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687964695198</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Binary Search Tree build">
+      <created>1687966431264</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687966431264</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
