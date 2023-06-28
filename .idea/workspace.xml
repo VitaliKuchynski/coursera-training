@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeBuildingIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeLCA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeSuccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MedianPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="Binary Search Tree build">
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +186,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="107022000" />
+      <workItem from="1685624213754" duration="107589000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -377,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687823354736</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Binary Search Tree build">
+      <created>1687964695198</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687964695198</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +413,8 @@
     <MESSAGE value="graphII" />
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree" />
+    <MESSAGE value="Binary Search Tree build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

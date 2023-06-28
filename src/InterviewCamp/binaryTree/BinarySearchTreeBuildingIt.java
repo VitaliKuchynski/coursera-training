@@ -38,15 +38,6 @@ public class BinarySearchTreeBuildingIt {
         return root;
     }
 
-
-
-
-
-
-
-
-
-
     public static MedianPair findMedian(Node head, Node tail) {
 
         if (head == null || tail == null) {
