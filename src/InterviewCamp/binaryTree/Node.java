@@ -8,6 +8,8 @@ public class Node {
     // needed for iteratively approach
     boolean visited;
     Node parent;
+    // Needed for building tree from linked list
+    Node next;
 
     public Node(int value) {
         super();
@@ -16,6 +18,14 @@ public class Node {
 
     public Node getParent() {
         return parent;
+    }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
     }
 
     public void setParent(Node parent) {
