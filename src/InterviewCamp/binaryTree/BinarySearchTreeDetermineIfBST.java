@@ -17,7 +17,7 @@ public class BinarySearchTreeDetermineIfBST {
             return null;
         }
 
-        if (left.getMax() > root.getValue() || right.getMin() < root.getValue()) {
+        if (left.getMin() > root.getValue() || right.getMax() < root.getValue()) {
             return null;
         }
 

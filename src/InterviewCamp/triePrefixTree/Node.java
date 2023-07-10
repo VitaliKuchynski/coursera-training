@@ -12,7 +12,6 @@ public class Node {
         this.isWord = false;
     }
 
-
     public boolean isWord() {
         return isWord;
     }

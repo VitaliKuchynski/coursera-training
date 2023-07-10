@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="Binary Search Tree build">
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Trie.java" afterDir="false" />
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="trie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeDetermineIfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeDetermineIfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/triePrefixTree/Trie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +191,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="110930000" />
+      <workItem from="1685624213754" duration="149137000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -387,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687966431264</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="trie">
+      <created>1687977726508</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687977726508</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +433,8 @@
     <MESSAGE value="Binary Tree" />
     <MESSAGE value="Binary Search Tree" />
     <MESSAGE value="Binary Search Tree build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree build" />
+    <MESSAGE value="trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="trie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -458,6 +468,21 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
           <line>43</line>
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/binaryTree/BottomToTop.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/binaryTree/BottomToTop.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/binaryTree/TopToBottom.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

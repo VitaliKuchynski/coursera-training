@@ -1,9 +1,6 @@
 package InterviewCamp.triePrefixTree;
 
-
-import InterviewCamp.triePrefixTree.Node;
-
-// Level:Hard Implement a Trie with insertion, search and deletion operations.
+// Level: Hard Implement a Trie with insertion, search and deletion operations.
 public class Trie {
     Node root;
 
