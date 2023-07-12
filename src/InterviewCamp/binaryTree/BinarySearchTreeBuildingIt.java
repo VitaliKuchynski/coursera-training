@@ -33,7 +33,7 @@ public class BinarySearchTreeBuildingIt {
         TreeNode root = new TreeNode(medianPair.getMedian().getValue());
 
         root.setLeft(makeTree(head, medianPair.getPrevious()));
-        root.setLeft(makeTree(medianPair.getPrevious().getNext(), tail));
+        root.setRight(makeTree(medianPair.getPrevious().getNext(), tail));
 
         return root;
     }

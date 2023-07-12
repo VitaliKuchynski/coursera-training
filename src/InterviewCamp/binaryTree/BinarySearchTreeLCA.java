@@ -20,4 +20,26 @@ public class BinarySearchTreeLCA {
         }
         return null;
     }
+
+    // LCA binary tree
+    public static Node findLCABinary(final Node root, final Node a, final Node b) {
+
+        if (root == null) {
+            return null;
+        }
+
+        if (root == a || root == b) {
+            return root;
+        }
+
+        Node left = findLCABinary(root.getLeft(), a, b);
+        Node right = findLCABinary(root.getRight(), a, b);
+
+        if (right != null && left != null) {
+            return root;
+        }
+
+        return left != null ? left : right;
+
+    }
 }
