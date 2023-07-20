@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="fix BST">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="fix make a tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeBuildingIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeBuildingIt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeLCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/BinarySearchTreeLCA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/MainGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/MainGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTree">
+  <component name="RunManager" selected="Application.MainGraph">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.binaryTree.MainTree" />
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.heap.BinaryTree" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.binaryTree.*" />
+          <option name="PATTERN" value="InterviewCamp.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,25 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.sorts.MergeSort" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeTimeIntervalLineSweep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.lineSweepTimeInterval.MergeTimeIntervalLineSweep" />
+    <configuration name="LineSweepTimeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.lineSweepTimeInterval.LineSweepTimeInterval" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="InterviewCamp.lineSweepTimeInterval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.graph.MainGraph" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTree" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.MainGraph" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SelectionAlg" />
-        <item itemvalue="Application.MergeTimeIntervalLineSweep" />
+        <item itemvalue="Application.LineSweepTimeInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="159518000" />
+      <workItem from="1685624213754" duration="183383000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -402,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688949122365</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix make a tree">
+      <created>1689192758309</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689192758309</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +449,8 @@
     <MESSAGE value="Binary Search Tree build" />
     <MESSAGE value="trie" />
     <MESSAGE value="fix BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix BST" />
+    <MESSAGE value="fix make a tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix make a tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -450,31 +459,6 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/recursion/Sudo.java</url>
           <line>101</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/MergeSort.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterviewCamp/binaryTree/BottomToTop.java</url>
@@ -490,6 +474,181 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/binaryTree/TopToBottom.java</url>
           <line>28</line>
           <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/selection/SelectionAlg.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="239" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

@@ -46,14 +46,14 @@ public class TopologicalSort {
         Stack<Node> topSort = topoSort(start);
         int diameter = 0;
 
-        while (!topSort.isEmpty()){
+        while (!topSort.isEmpty()) {
 
             Node current = topSort.pop();
-            diameter = Math.max(diameter, current.getData());
+            diameter = Math.max(diameter, current.getLongestPath());
 
             for (Node neighbor: current.getNeighbors()) {
-                if (current.getData() + 1 > neighbor.getData()) {
-                    neighbor.setData(current.getData() + 1);
+                if (current.getLongestPath() + 1 > neighbor.getLongestPath()) {
+                    neighbor.setLongestPath(current.getLongestPath() + 1);
                 }
             }
         }

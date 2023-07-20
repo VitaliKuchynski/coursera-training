@@ -9,12 +9,14 @@ public class Node {
     State state;
     int level;
     int color;
+    int longestPath;
 
     public Node(int data) {
         super();
         this.neighbors = new ArrayList<>();
         this.data = data;
         this.state = State.UNVISITED;
+        this.longestPath = 0;
     }
 
     public int getLevel() {
@@ -55,5 +57,13 @@ public class Node {
 
     public void setState(State state) {
         this.state = state;
+    }
+
+    public int getLongestPath() {
+        return longestPath;
+    }
+
+    public void setLongestPath(int longestPath) {
+        this.longestPath = longestPath;
     }
 }
