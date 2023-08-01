@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="fix make a tree">
+    <list default="true" id="b7f3786b-814b-4abb-8cac-7ca4d02b1a30" name="Default Changelist" comment="graph added path">
+      <change afterPath="$PROJECT_DIR$/src/InterviewCamp/arrays/BigInteger/BigInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/CountChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/binaryTree/MainTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/MainGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/MainGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +70,7 @@
       <recent name="dadaStructuresRobEdwardsSDSU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainGraph">
+  <component name="RunManager" selected="Application.ZigZagOrderPrint">
     <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStock" />
       <module name="coursera-training" />
@@ -97,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LineSweepTimeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.lineSweepTimeInterval.LineSweepTimeInterval" />
-      <module name="coursera-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewCamp.lineSweepTimeInterval.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewCamp.graph.MainGraph" />
       <module name="coursera-training" />
@@ -123,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.sorts.QuickSort" />
+    <configuration name="MaxAmountWithTwoTradesStock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxAmountWithTwoTradesStock2" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.sorts.*" />
+          <option name="PATTERN" value="InterviewCamp.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionAlg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewCamp.selection.SelectionAlg" />
+    <configuration name="MaxDiffStockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.arrays.MaxDiffStockPrice" />
       <module name="coursera-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewCamp.selection.*" />
+          <option name="PATTERN" value="InterviewCamp.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagOrderPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewCamp.array2D.ZigZagOrderPrint" />
+      <module name="coursera-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterviewCamp.array2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZigZagOrderPrint" />
+        <item itemvalue="Application.MaxAmountWithTwoTradesStock2" />
+        <item itemvalue="Application.MaxDiffStockPrice" />
         <item itemvalue="Application.MainGraph" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.SelectionAlg" />
-        <item itemvalue="Application.LineSweepTimeInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,7 @@
       <workItem from="1661472215533" duration="254000" />
       <workItem from="1675732949742" duration="1590000" />
       <workItem from="1677634662070" duration="224315000" />
-      <workItem from="1685624213754" duration="183383000" />
+      <workItem from="1685624213754" duration="205826000" />
     </task>
     <task id="LOCAL-00001" summary="LRU">
       <created>1648505789310</created>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689192758309</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="graph added path">
+      <created>1689816368540</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1689816368540</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +457,8 @@
     <MESSAGE value="trie" />
     <MESSAGE value="fix BST" />
     <MESSAGE value="fix make a tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix make a tree" />
+    <MESSAGE value="graph added path" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph added path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,31 +632,6 @@
           <url>file://$PROJECT_DIR$/src/InterviewCamp/sorts/QuickSort.java</url>
           <line>28</line>
           <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="236" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="237" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="238" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterviewCamp/graph/TopologicalSort.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="239" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
