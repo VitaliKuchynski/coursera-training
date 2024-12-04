@@ -30,7 +30,7 @@ public class Queue {
             throw new EmptyQueueException();
         }
         int result = a[front];
-        front = front + 1 % a.length;
+        front = (front + 1) % a.length;
         length--;
         return result;
     }

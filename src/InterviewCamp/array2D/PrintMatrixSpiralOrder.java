@@ -25,6 +25,7 @@ public class PrintMatrixSpiralOrder {
                         {10, 11, 12},
                         {13 ,14, 15}};
         System.out.println(spiralOrder(ar4));
+        printSpiral(ar4);
 
     }
 

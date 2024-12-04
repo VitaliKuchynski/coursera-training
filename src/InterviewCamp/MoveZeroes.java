@@ -1,4 +1,4 @@
-package leetcode;
+package InterviewCamp;
 
 import java.util.Arrays;
 

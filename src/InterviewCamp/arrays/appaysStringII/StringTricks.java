@@ -16,7 +16,7 @@ public static boolean isRotation(String a, String b) {
         if (a == null || b == null || a.length() != b.length()) {
             return false;
         }
-         return (a + b).contains(b);
+         return (a + a).contains(b);
 }
 
 

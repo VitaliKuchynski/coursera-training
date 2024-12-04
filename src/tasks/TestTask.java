@@ -29,7 +29,6 @@ public class TestTask {
     }
 
 
-
 public static List<String> getList(Map<Integer, String> map, String word) {
 
         if (!map.isEmpty() || map == null) {
