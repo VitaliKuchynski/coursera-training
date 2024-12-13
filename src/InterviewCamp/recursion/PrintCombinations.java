@@ -12,7 +12,7 @@ public class PrintCombinations {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5};
-        printCombos(arr, 3);
+        printCombos(arr, 2);
 
     }
 
