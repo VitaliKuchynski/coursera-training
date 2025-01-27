@@ -1,11 +1,47 @@
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.stream.Collectors;
+
 public class Test {
 
 
     public static void main(String[] args) {
 
-        int[] input = new int[] {2,4,5,19, 1};
+        int[] input = new int[] {1,2,3,4, 2};
 
-        printStars(7);
+//        printStars(7);
+        lookFor(input);
+
+
+    }
+
+    public static void lookFor(int []ar) {
+
+        int[] result = new int[ar.length];
+
+        getSum(ar, 0, result);
+
+        System.out.println(Arrays.toString(result));
+
+    }
+
+    public static void getSum(int[] ar, int index, int[] result) {
+
+        if (index == ar.length ) {
+            return;
+        }
+
+        int currentSum = 1;
+
+        for (int i = 0; i < ar.length; i++) {
+
+            if (i != index) {
+            currentSum *= ar[i];
+            }
+        }
+        result[index] = currentSum;
+        getSum(ar, index + 1, result);
 
 
     }
@@ -44,5 +80,48 @@ public class Test {
 
         }
     }
+
+
+
+
+
+
+
+
+    public void findKSmallest(int[] ar, int target) {
+
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());
+
+        for (int i = 0; i < ar.length - 1; i++) {
+
+            if (i < target) {
+                queue.add(ar[i]);
+            } else if (ar[i] < queue.peek()) {
+                queue.remove();
+                queue.add(ar[i]);
+
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

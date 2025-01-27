@@ -40,8 +40,8 @@ public class LowestCommonAncestor {
         Node y = aDepth > bDepth ? b : a; // the node that wasn't raised
 
         while (x != y) {
-           x =  x.getRight();
-           y =  y.getRight();
+           x =  x.getParent();
+           y =  y.getParent();
         }
 
         return x; // can return either x or y here

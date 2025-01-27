@@ -1,8 +1,6 @@
-package InterviewCamp;
+package InterviewCamp.arrays;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 //Level: EasyGiven an array of integers,
 // find a pair of integers that sums to a number Target.
@@ -58,5 +56,24 @@ public class ToSumHashSet {
         }
 
         return null;
+    }
+
+    public List<int[]> findAllPairs(int [] arr, int target) {
+
+        Deque<Integer> numberStack = new LinkedList<>();
+        List<int[]> result = new ArrayList<>();
+
+        for (int current: arr) {
+
+            int con = target - current;
+
+            if (numberStack.contains(con)) {
+                result.add(new int[] {con, current});
+            } else {
+                numberStack.add(current);
+            }
+
+        }
+        return result;
     }
 }
