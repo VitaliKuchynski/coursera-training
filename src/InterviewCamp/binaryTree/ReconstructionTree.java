@@ -31,7 +31,7 @@ public class ReconstructionTree {
 
         // add left and right subtrees to root node
         root.left = construct(preorder, preStart + 1, preStart + (k - inStart), inorder, inStart, k - 1, inorderMap);
-        root.left = construct(preorder,  preStart + (k - inStart) + 1, preEnd, inorder, k + 1, inEnd, inorderMap);
+        root.right = construct(preorder,  preStart + (k - inStart) + 1, preEnd, inorder, k + 1, inEnd, inorderMap);
 
         return root;
     }
